@@ -9,7 +9,7 @@ Organizer NC Communications (http://www.nccomms.com/) has published the SharePoi
 PowerShell Script 'Dowload_SPCA2014_Slides.ps1' loads the Dramatic.SlideShare module and downloads the slide decks to the specified folder.
 
 IMPORTANT: apply for your own SlideShare API key at http://www.slideshare.net/developers/applyforapi
-and register your personal SlideShare key and secret into 'Dowload_SPCA2014_Slides.ps1'.
+and register your personal SlideShare key and secret into 'Download_SPCA2014_Slides.ps1'.
 
 Disclaimer: work in progress.
 
