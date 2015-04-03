@@ -1,4 +1,4 @@
-# Dramatic.SlideShare.psm1
+# PSSlideShare.psm1
 # Module to talk to the SlideShare API
 # Dec 2014
 # If this works, this was written by Victor Vogelpoel (victor@victorvogelpoel.nl)
@@ -16,7 +16,7 @@ $global:ErrorActionPreference 	= "Stop"
 
 #----------------------------------------------------------------------------------------------------------------------
 # Set variables
-$script:thisModuleDirectory			= $PSScriptRoot								# Directory path\Dramatic.SlideShare\
+$script:thisModuleDirectory			= $PSScriptRoot								# Directory path\PSSlideShare\
 
 
 #----------------------------------------------------------------------------------------------------------------------

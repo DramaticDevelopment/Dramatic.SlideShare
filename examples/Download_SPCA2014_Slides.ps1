@@ -1,11 +1,11 @@
-﻿# Dowload_SPCA2014_Slides.ps1
+﻿# Download_SPCA2014_Slides.ps1
 # Dec 2014
 # If this works, this was written by Victor Vogelpoel (victor@victorvogelpoel.nl)
 # If it doesn't work, I don't know who wrote this.
 
 Remove-Module 'Dramatic.SlideShare' -force -ErrorAction SilentlyContinue
 
-import-module (Join-Path $PSScriptRoot '.\SlideShare\Dramatic.SlideShare.psd1')
+import-module (Join-Path $PSScriptRoot '..\PSSlideShare.psd1')
 
 $downloadfolder = 'C:\Users\victorv\Documents\WindowsPowerShell\SPCA2014Data'
 if (!(Test-Path $downloadfolder))
